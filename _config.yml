@@ -1,0 +1,24 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+pygments: true
+
+title: blue5tar的小站
+description: a coder's blog
+author:
+  name: blue5tar
+  email: blue5tar@163.com
+  github: blue5tar
+  weibo: blue5tar
+  email_md5: ad7561d664207e909af1128dbad590a3
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+
+baseurl: /
+
+permalink: /:title
